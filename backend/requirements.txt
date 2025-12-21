@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+sqlalchemy
+psycopg2-binary
+aiohttp
+beautifulsoup4
+pydantic
+pytest
+langchain>=0.1.16
+langchain-openai>=0.0.8
+langchain-core>=0.1.45
+openai>=1.30.0
