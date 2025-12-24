@@ -1,11 +1,13 @@
-
-
-
+To run locally 
 ```bash
-pip install install fastapi uvicorn sqlalchemy asyncpg alembic beautifulsoup4 aiohttp langchain openai pydantic
+python -m venv venv
+.\venv\Scripts\activate
+pip install -r requirements.txt
+uvicorn app.main:app --reload
+```
 
-Commands to create database using SQL shell 
-
+Commands to create database using SQL shell locally 
+```bash
 - ALTER USER postgres WITH PASSWORD 'postgres'; 
 - CREATE DATABASE sitesage;
 
